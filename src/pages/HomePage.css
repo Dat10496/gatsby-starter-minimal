@@ -1,0 +1,17 @@
+.mortgage-calculator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.icon-block {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .mortgage-calculator {
+        display: block;
+    }
+}

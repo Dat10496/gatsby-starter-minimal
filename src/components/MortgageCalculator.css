@@ -1,0 +1,133 @@
+.mortgage {
+  width: 732px;
+  height: 540px;
+  background-color: #383f50;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-box {
+  width: 536px;
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  width: 420px;
+  height: 64px;
+}
+
+.slider {
+  width: 536px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slider-item {
+  width: 258px;
+  height: 50px;
+}
+
+.estimate-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-price {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.price {
+  margin-left: 4px;
+  font-weight: 900;
+  font-size: 24px;
+  color: #ff8049;
+}
+
+@media only screen and (max-width: 900px) {
+  .mortgage {
+    width: 100%;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .inside-box {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+  }
+
+  .head {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .slider {
+    height: 100%;
+    margin-top: 20px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .slider-item {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .slider-item {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+
+  .estimate-price {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .total-price {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+
+  .total-price .title {
+    width: 55%;
+  }
+
+  .price {
+    margin-left: 0px;
+  }
+}

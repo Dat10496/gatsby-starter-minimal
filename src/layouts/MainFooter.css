@@ -1,0 +1,154 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 1141px;
+    height: 277px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.information {
+    width: 371px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-avatar {
+    width: 243px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-icon {
+    width: 67px;
+    height: 67px;
+    border-radius: 35px;
+    background-color: #16222d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-name {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.private-name {
+    color: #40434a;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#description {
+    color: #585c65;
+    font-weight: 400;
+    font-size: 20px;
+    width: 361px;
+    height: 72px;
+}
+
+#cover-box {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-icon {
+    width: 207px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 35px;
+    background-color: #ff8049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e5e5;
+}
+
+.box-contact {
+    width: 86px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-contact {
+    color: #40434a;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#sub-title {
+    color: #70737c;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .box-avatar {
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .information {
+        width: 100%;
+    }
+
+    .private-name {
+        margin-left: 20px;
+    }
+
+    #description {
+        width: 100%;
+        text-align: center;
+    }
+
+    #cover-box {
+        width: 100%;
+        margin-top: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #cover-box-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
